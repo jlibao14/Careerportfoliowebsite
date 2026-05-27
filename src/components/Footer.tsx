@@ -9,7 +9,7 @@ export function Footer() {
           <div>
             <h3 className="text-lg font-bold text-[#d4af37] mb-4">John Michael L. Libao</h3>
             <p className="text-gray-400 text-sm">
-              Head, IT Digital Transformation & ERP Program Director
+              Head of IT & Digital Transformation and ERP Program Director
             </p>
             <div className="flex items-center gap-2 text-gray-400 text-sm mt-2">
               <MapPin className="h-4 w-4" />

@@ -1,7 +1,7 @@
 
-  # Career portfolio website
+  # Career Summary Portfolio
 
-  This is a code bundle for Career portfolio website. The original project is available at https://www.figma.com/design/GH8UnfJwft5DO9vAEaUhwI/Career-portfolio-website.
+  This is a code bundle for Career Summary Portfolio. The original project is available at https://www.figma.com/design/GH8UnfJwft5DO9vAEaUhwI/Career-Summary-Portfolio.
 
   ## Running the code
 

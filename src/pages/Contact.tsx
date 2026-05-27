@@ -7,6 +7,7 @@ import { Label } from '../app/components/ui/label';
 import { Mail, Linkedin, MapPin } from 'lucide-react';
 import { useState } from 'react';
 import { toast } from 'sonner';
+import { sendEmail } from '../services/emailService';
 
 export function Contact() {
   const [formData, setFormData] = useState({
@@ -21,12 +22,16 @@ export function Contact() {
     e.preventDefault();
     setIsSubmitting(true);
 
-    // Simulate form submission
-    await new Promise(resolve => setTimeout(resolve, 1000));
-
-    toast.success('Message sent successfully! I\'ll get back to you soon.');
-    setFormData({ name: '', email: '', subject: '', message: '' });
-    setIsSubmitting(false);
+    try {
+      await sendEmail(formData);
+      toast.success('Message sent successfully! I\'ll get back to you soon.');
+      setFormData({ name: '', email: '', subject: '', message: '' });
+    } catch (error) {
+      console.error('Failed to send email:', error);
+      toast.error('Failed to send message. Please try again or email me directly.');
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {

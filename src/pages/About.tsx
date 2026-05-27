@@ -6,7 +6,7 @@ export function About() {
   const careerTimeline = [
     {
       period: 'Nov 2025 - Mar 2026',
-      title: 'Head of IT & Digital Transformation | ERP Program Director',
+      title: 'Head of IT & Digital Transformation and ERP Program Director',
       company: 'GTO Trading Corporation',
       description: 'Defined and executed enterprise-wide IT and digital transformation strategy. Led end-to-end ERP program across Finance, Supply Chain, Sales, and Operations. Served on Executive Steering Committee, establishing governance frameworks, KPIs, and risk management. Successfully transformed fragmented systems into a unified ERP-driven enterprise platform.'
     },
@@ -30,7 +30,7 @@ export function About() {
     },
     {
       period: 'May 2013 - Jan 2016',
-      title: 'Senior Software Engineer / MIS Analyst / Project Manager',
+      title: 'MIS Analyst / Senior Software Engineer',
       company: 'VXI Global Solutions, LLC',
       description: 'Developed enterprise tools with global impact, specializing in software engineering, database systems, and HR technology solutions. Promoted to DevOps Team Manager based on performance.'
     },

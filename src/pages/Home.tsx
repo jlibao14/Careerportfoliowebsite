@@ -73,7 +73,7 @@ export function Home() {
               John Michael L. Libao
             </h1>
             <div className="text-2xl md:text-3xl text-[#d4af37] mb-6">
-              Head, IT Digital Transformation & ERP Program Director
+              Head of IT & Digital Transformation and ERP Program Director
             </div>
             <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
               Transforming businesses through strategic technology leadership, enterprise architecture,
