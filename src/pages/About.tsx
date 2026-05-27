@@ -5,46 +5,52 @@ import { Briefcase, Award, GraduationCap } from 'lucide-react';
 export function About() {
   const careerTimeline = [
     {
-      period: 'Nov 2025 - Present',
-      title: 'Head, IT Digital Transformation & ERP Program Director',
+      period: 'Nov 2025 - Mar 2026',
+      title: 'Head of IT & Digital Transformation | ERP Program Director',
       company: 'GTO Trading Corporation',
-      description: 'Leading enterprise-wide digital transformation initiatives, managing IT infrastructure, and directing strategic technology programs'
+      description: 'Defined and executed enterprise-wide IT and digital transformation strategy. Led end-to-end ERP program across Finance, Supply Chain, Sales, and Operations. Served on Executive Steering Committee, establishing governance frameworks, KPIs, and risk management. Successfully transformed fragmented systems into a unified ERP-driven enterprise platform.'
     },
     {
-      period: '2023 - 2025',
-      title: 'IT Manager',
-      company: 'Chris Sports Inc. (Retail)',
-      description: 'Managed IT operations across multiple retail locations, implemented cloud migration strategies, and optimized business processes'
+      period: 'Jul 2025 - Oct 2025',
+      title: 'IT Manager / Vendor Collaboration Lead',
+      company: 'Chris Sports, Inc.',
+      description: 'Directed IT strategy and digital transformation roadmap. Led implementation and optimization of Odoo ERP across retail, warehouse, and service operations. Managed cloud platforms (SaaS/PaaS), cybersecurity frameworks, and automation initiatives. Improved system uptime and operational efficiency.'
     },
     {
-      period: '2022 - 2023',
-      title: 'IT Consultant - Solutions Architect',
-      company: 'Lee Designs Inds.',
-      description: 'Designed enterprise architecture solutions, established DevOps practices, and led infrastructure modernization'
+      period: 'Jul 2023 - Dec 2023',
+      title: 'Head of Software Development & Technical Engineering',
+      company: 'Ventaja International Corporation – PAYREMIT (Fintech)',
+      description: 'Led team of 17 engineers, establishing departmental structure, governance, and security compliance architecture. Directed infrastructure buildout and containerization (Docker). Delivered multiple enterprise systems including payroll and POS deployments across airport terminals.'
     },
     {
-      period: 'Oct 2021 - Jul 2025',
-      title: 'Co-Founder',
-      company: 'Mikaela\'s AguaBest Water Distribution Services',
-      description: 'Built business from ground up, managed operations, and implemented business automation systems'
+      period: 'Jan 2016 - Dec 2021',
+      title: 'DevOps Engineer → Senior DevOps Engineer → Team Manager',
+      company: 'VXI Global Solutions, LLC (BPO)',
+      description: 'Led DevOps team through AWS cloud migration (RDS, CloudWatch) and established CI/CD pipelines using Jenkins and GitLab. Managed production monitoring, system uptime, and Agile delivery across global programs. Scaled DevOps capability through process automation and engineering standardization.'
     },
     {
-      period: '2020 - 2022',
-      title: 'IT Consultant - Engineering Head',
-      company: 'Ventaja International Corp./PAYREMIT (Fintech)',
-      description: 'Led engineering team, architected secure payment systems, and ensured regulatory compliance'
+      period: 'May 2013 - Jan 2016',
+      title: 'Senior Software Engineer / MIS Analyst / Project Manager',
+      company: 'VXI Global Solutions, LLC',
+      description: 'Developed enterprise tools with global impact, specializing in software engineering, database systems, and HR technology solutions. Promoted to DevOps Team Manager based on performance.'
     },
     {
-      period: '2012 - 2020',
-      title: 'Senior Dev & IT Ops Engineer',
-      company: 'VXI Global Solutions (BPO)',
-      description: '8+ years scaling infrastructure, automating operations, and supporting 1000+ concurrent users'
+      period: 'Jan 2013 - May 2013',
+      title: 'Head – Testing & Commissioning',
+      company: 'Systems Variable Technicom, Inc.',
+      description: 'Led large-scale security and home automation implementations, ensuring compliance with Data Privacy Act and governance standards.'
     },
     {
-      period: '2010 - 2012',
-      title: 'Senior Software Engineer',
-      company: 'Main Hardware Inc.',
-      description: 'Developed and integrated banking systems for BSP/JP Morgan/Emerson platforms'
+      period: 'Oct 2010 - Dec 2012',
+      title: 'IT Technical Project Manager',
+      company: 'Main Hardware, Inc. (BSP, JP Morgan, Emerson)',
+      description: 'Managed end-to-end delivery of large-scale security and infrastructure projects. Designed and implemented security operations centers and access control systems for banking and enterprise clients. Led vendor selection, contract negotiation, and budget management.'
+    },
+    {
+      period: 'Jan 2010 - Oct 2010',
+      title: 'Partnerships Manager',
+      company: 'Gawad Kalinga Development Foundation Center',
+      description: 'Managed strategic partnerships, client relations, and community development leadership initiatives.'
     }
   ];
 
