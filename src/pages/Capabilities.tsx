@@ -12,7 +12,11 @@ import {
   Users,
   TrendingUp,
   Workflow,
-  FileCheck
+  FileCheck,
+  LifeBuoy,
+  Activity,
+  Cpu,
+  Container
 } from 'lucide-react';
 
 export function Capabilities() {
@@ -22,7 +26,7 @@ export function Capabilities() {
       title: 'ERP & Digital Transformation',
       description: 'Leading enterprise-wide digital initiatives',
       details: [
-        'SAP and Microsoft Dynamics implementation and customization',
+        'Odoo Enterprise, SAP, NetSuite and other ERP implementation and customization programs',
         'Business process re-engineering and optimization',
         'Change management and user adoption strategies',
         'Data migration and system integration',
@@ -78,6 +82,31 @@ export function Capabilities() {
       ]
     },
     {
+      icon: LifeBuoy,
+      title: 'IT Operations & Service Management (ITSM)',
+      description: 'Leading IT Operations with ITIL-aligned service delivery',
+      details: [
+        'ITIL v4 framework – Incident, Problem, Change, and Release Management',
+        'Service Desk operations, SLA/OLA definition and KPI governance',
+        'Configuration Management Database (CMDB) and asset lifecycle management',
+        'NOC/SOC operations, 24x7 monitoring, and on-call escalation models',
+        'ITSM tooling: ServiceNow, Jira Service Management, Freshservice, Zendesk',
+        'Business Continuity, Disaster Recovery (BCP/DRP), and RTO/RPO planning'
+      ]
+    },
+    {
+      icon: Activity,
+      title: 'Observability & SRE Practices',
+      description: 'Site reliability, monitoring, and proactive operations',
+      details: [
+        'End-to-end observability: metrics, logs, traces (Prometheus, Grafana, ELK, Datadog)',
+        'SRE principles – SLIs, SLOs, error budgets, and toil reduction',
+        'APM and synthetic monitoring (New Relic, AppDynamics, CloudWatch)',
+        'Capacity planning, performance tuning, and root-cause analysis (RCA)',
+        'Automated remediation, runbooks, and chaos engineering exposure'
+      ]
+    },
+    {
       icon: Users,
       title: 'Program & Vendor Management',
       description: 'Driving strategic initiatives',
@@ -92,12 +121,18 @@ export function Capabilities() {
   ];
 
   const tools = [
-    { icon: GitBranch, name: 'Version Control', tools: 'Git, GitLab, GitHub' },
-    { icon: Server, name: 'Cloud Platforms', tools: 'AWS, Azure, GCP' },
-    { icon: Database, name: 'Databases', tools: 'PostgreSQL, MongoDB, Redis' },
-    { icon: Lock, name: 'Security', tools: 'Vault, SIEM, SSL/TLS' },
-    { icon: FileCheck, name: 'Monitoring', tools: 'Prometheus, Grafana, CloudWatch' },
-    { icon: TrendingUp, name: 'BI Tools', tools: 'Power BI, Tableau, Looker' }
+    { icon: GitBranch, name: 'Version Control & CI/CD', tools: 'Git, GitHub Actions, GitLab CI, Jenkins, Argo CD' },
+    { icon: Server, name: 'Cloud Platforms', tools: 'AWS, Azure, GCP, DigitalOcean' },
+    { icon: Container, name: 'Containers & Orchestration', tools: 'Docker, Kubernetes, Helm, Rancher' },
+    { icon: Workflow, name: 'IaC & Automation', tools: 'Terraform, Ansible, CloudFormation, Pulumi' },
+    { icon: Database, name: 'Databases', tools: 'PostgreSQL, MySQL, MongoDB, Redis, MS SQL' },
+    { icon: Lock, name: 'Security & IAM', tools: 'HashiCorp Vault, SIEM, Okta, SSL/TLS, OAuth 2.0' },
+    { icon: FileCheck, name: 'Observability', tools: 'Prometheus, Grafana, ELK, Datadog, CloudWatch' },
+    { icon: LifeBuoy, name: 'ITSM Platforms', tools: 'ServiceNow, Jira Service Management, Freshservice' },
+    { icon: Cpu, name: 'ERP & Business Apps', tools: 'Odoo Enterprise, SAP, NetSuite, MS Dynamics' },
+    { icon: TrendingUp, name: 'BI & Analytics', tools: 'Power BI, Tableau, Looker, Metabase' },
+    { icon: Code, name: 'Languages & Frameworks', tools: 'Python, Node.js, TypeScript, React, FastAPI' },
+    { icon: Building2, name: 'Frameworks & Standards', tools: 'ITIL v4, COBIT, ISO 27001, PCI-DSS, NIST' }
   ];
 
   return (

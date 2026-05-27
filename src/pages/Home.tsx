@@ -9,7 +9,9 @@ import {
   Shield,
   Code,
   Users,
-  TrendingUp
+  TrendingUp,
+  LifeBuoy,
+  Activity
 } from 'lucide-react';
 import { projects } from '../data/projects';
 import { ProjectCard } from '../components/ProjectCard';
@@ -38,6 +40,16 @@ export function Home() {
       icon: Code,
       title: 'DevOps & Software Engineering',
       description: 'Building CI/CD pipelines and modern application architectures'
+    },
+    {
+      icon: LifeBuoy,
+      title: 'IT Operations & Service Management',
+      description: 'Leading ITIL-aligned IT Operations, ITSM, and 24x7 service delivery'
+    },
+    {
+      icon: Activity,
+      title: 'Observability & Site Reliability',
+      description: 'Driving SRE practices, monitoring, and proactive incident response'
     },
     {
       icon: Shield,

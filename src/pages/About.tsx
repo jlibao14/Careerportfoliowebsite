@@ -57,11 +57,16 @@ export function About() {
   const competencies = [
     'Strategic Planning & Executive Reporting',
     'ERP Implementation & Digital Transformation',
+    'IT Operations Leadership & ITSM (ITIL v4)',
+    'Incident, Problem & Change Management',
+    'SRE, Observability & 24x7 NOC Operations',
     'DevOps & CI/CD Pipeline Architecture',
-    'Cloud Infrastructure (AWS, Azure)',
-    'IT & Security Governance',
+    'Cloud Infrastructure (AWS, Azure, GCP)',
+    'Kubernetes, Containers & Infrastructure as Code',
+    'IT & Security Governance (ISO 27001, COBIT, NIST)',
     'Solution Architecture & Systems Integration',
-    'Program & Vendor Management',
+    'Program, Portfolio & Vendor Management',
+    'Business Continuity & Disaster Recovery (BCP/DRP)',
     'Data Privacy Act Compliance',
     'AI & Machine Learning Integration',
     'Team Leadership & Cross-functional Collaboration'
@@ -130,6 +135,13 @@ export function About() {
                   empowering teams, fostering innovation, and maintaining a relentless focus on execution.
                   Whether leading digital transformation at a trading corporation or architecting secure
                   fintech platforms, I bring the same commitment to excellence and results.
+                </p>
+                <p className="text-gray-300">
+                  I lead IT Operations with an ITIL v4-aligned mindset — building service desks,
+                  NOC capabilities, and SRE practices that keep enterprises running 24x7. From
+                  incident, problem, and change management to observability, capacity planning,
+                  and business continuity, my operating model emphasizes proactive monitoring,
+                  measurable SLAs, and continuous service improvement.
                 </p>
               </CardContent>
             </Card>
