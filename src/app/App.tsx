@@ -8,6 +8,7 @@ import { Portfolio } from '../pages/Portfolio';
 import { ProjectDetail } from '../pages/ProjectDetail';
 import { Capabilities } from '../pages/Capabilities';
 import { Contact } from '../pages/Contact';
+import { Certifications } from '../pages/Certifications';
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/certifications" element={<Certifications />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/portfolio/:id" element={<ProjectDetail />} />
           <Route path="/capabilities" element={<Capabilities />} />

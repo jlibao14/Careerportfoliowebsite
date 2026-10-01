@@ -52,20 +52,19 @@ export const projects: Project[] = [
   },
   {
     id: 'devops-cicd-pipeline',
-    title: 'Enterprise DevOps & CI/CD Pipeline',
-    company: 'Lee Designs Inds.',
-    role: 'IT Consultant - Solutions Architect',
-    category: 'Integration',
-    description: 'Established comprehensive DevOps practices and automated deployment pipelines',
-    problem: 'Manual deployment processes causing delays and inconsistent releases',
-    solution: 'Implemented end-to-end CI/CD pipeline with automated testing, security scanning, and zero-downtime deployments',
-    techStack: ['Jenkins', 'GitLab CI', 'Docker', 'Ansible', 'SonarQube'],
+    title: 'IT Infrastructure Re-Architecture & Security Compliance',
+    company: 'LEE Designs Industries, Inc.',
+    role: 'Solutions Architect — IT Consultant (Contract)',
+    category: 'Governance',
+    description: 'Infrastructure and security re-architecture engagement for a design and manufacturing firm',
+    problem: 'Ad-hoc IT infrastructure with no formal governance, security controls, or established technical team',
+    solution: 'Re-architected the IT environment with Active Directory, application servers, firewall services, and group policy controls; drafted business and systems proposals; led vendor selection alongside company ownership and built and onboarded the technical team',
+    techStack: ['Active Directory', 'Windows Server', 'Firewall/NGFW', 'Group Policy', 'IT Governance'],
     metrics: [
-      { label: 'Deployment Time', value: '-80%' },
-      { label: 'Bug Detection', value: '+60%' },
-      { label: 'Release Frequency', value: '5x' }
-    ],
-    featured: true
+      { label: 'Infrastructure Coverage', value: '100%' },
+      { label: 'Security Posture', value: 'Policy-Governed' },
+      { label: 'Team Onboarded', value: 'Yes' }
+    ]
   },
   {
     id: 'fintech-security-compliance',
@@ -134,18 +133,18 @@ export const projects: Project[] = [
   },
   {
     id: 'ai-chatbot-integration',
-    title: 'AI-Powered Customer Service Platform',
+    title: 'AI Solutions & Trading Bot Development',
     company: 'JML Freelance Consulting',
-    role: 'IT Consultant - Solutions Architect',
+    role: 'AI Developer | Project Manager | Trader',
     category: 'Software',
-    description: 'Developed AI chatbot with natural language processing for customer support',
-    problem: 'High volume of repetitive customer inquiries overwhelming support team',
-    solution: 'Built intelligent chatbot with NLP, knowledge base, and escalation workflows',
-    techStack: ['OpenAI GPT', 'Python', 'FastAPI', 'PostgreSQL', 'React'],
+    description: 'Freelance engagements delivering AI-powered digital products for local SMEs and AI modernization for start-up companies; includes development of Expert Advisor trading bots tuned for London and New York market sessions',
+    problem: 'SMEs and start-ups lacking structured AI adoption paths, automation capabilities, and algorithmic trading tooling',
+    solution: 'Delivered tailored digital products driving SME operational efficiency, AI modernization roadmaps for scalable technology adoption, technical consultancy with implementation support, and algorithmic trading bots (Expert Advisors) engineered for London and New York FX market sessions',
+    techStack: ['OpenAI GPT', 'Python', 'MQL5/MQL4', 'MetaTrader', 'FastAPI', 'React', 'PostgreSQL'],
     metrics: [
-      { label: 'Ticket Reduction', value: '60%' },
-      { label: 'Response Time', value: '-85%' },
-      { label: 'Customer Satisfaction', value: '92%' }
+      { label: 'Clients Served', value: 'SMEs & Startups' },
+      { label: 'Bot Sessions', value: 'London + NY' },
+      { label: 'Engagement Type', value: 'Ongoing' }
     ]
   },
   {

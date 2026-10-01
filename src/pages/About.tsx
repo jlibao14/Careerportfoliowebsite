@@ -5,6 +5,12 @@ import { Briefcase, Award, GraduationCap } from 'lucide-react';
 export function About() {
   const careerTimeline = [
     {
+      period: 'Ongoing',
+      title: 'AI Developer | Project Manager | Trader',
+      company: 'JML Freelance Consulting (Self-Employed)',
+      description: 'Designs and builds digital products tailored for local SMEs, driving operational efficiency and growth. Guides start-up companies through AI modernization initiatives, enabling scalable adoption of emerging technologies. Delivers technical consultancy services providing strategic insights and implementation support. Develops and optimizes AI-driven trading bots (Expert Advisors) engineered to align with London and New York market sessions for enhanced performance.'
+    },
+    {
       period: 'Nov 2025 - Mar 2026',
       title: 'Head of IT & Digital Transformation and ERP Program Director',
       company: 'GTO Trading Corporation',
@@ -15,6 +21,12 @@ export function About() {
       title: 'IT Manager / Vendor Collaboration Lead',
       company: 'Chris Sports, Inc.',
       description: 'Directed IT strategy and digital transformation roadmap. Led implementation and optimization of Odoo ERP across retail, warehouse, and service operations. Managed cloud platforms (SaaS/PaaS), cybersecurity frameworks, and automation initiatives. Improved system uptime and operational efficiency.'
+    },
+    {
+      period: 'Apr 2025 - Jul 2025',
+      title: 'Solutions Architect — IT Consultant (Contract)',
+      company: 'LEE Designs Industries, Inc.',
+      description: 'Re-architected IT infrastructure, security compliance, and governance processes; deployed application servers, Active Directory, firewall services, and group policy controls. Drafted business and systems proposals and led vendor selection alongside company ownership; built and onboarded the technical team. Impact: Established a reliable, policy-governed IT and security infrastructure aligned to current best practices.'
     },
     {
       period: 'Jul 2023 - Dec 2023',

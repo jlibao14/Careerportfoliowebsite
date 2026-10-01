@@ -1,0 +1,7 @@
+{
+  "description": "Showcase your skills and projects with a professional career portfolio website designed to enhance job applications and attract potential employers.",
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": true
+  }
+}
